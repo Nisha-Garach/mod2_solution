@@ -1,0 +1,75 @@
+body {
+	background-color: white;
+	font-family: roboto;
+	padding: 5px;
+}
+
+.container {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.box {
+	height: 150px;
+	border: 1px solid;
+	margin: 10px;
+	background-color: silver;
+}
+
+.head {
+	margin: 5px 5px 0px 0px;
+	float: right;
+	padding: 5px;
+	border: 1px solid;
+}
+
+p {
+	padding-top: 50px;
+	margin: 10px;
+	text-align: justify;
+	color: white;
+}
+
+.h-1 {
+	background-color: pink;
+}
+
+.h-2 {
+	background-color: yellow;
+}
+
+.h-3 {
+ 	background-color: lightblue;
+}
+
+/************Responsive elements***********/
+.row {
+	padding: 30px 5px 5px 5px;
+}
+
+/************LArge Screens onle************/
+@media (min-width: 992px) {
+	.col-lg {
+		width: 30%;
+		display: inline-table;
+	}
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6 {
+		width: 45%;
+		display: inline-table;
+	}
+	.col-md-12 {
+		width: 93%;
+		display: inline-table;
+	}
+}
+
+/********** Small devices only **********/
+ @media (max-width: 767px) {
+	.col-sm {
+		width: 93%;
+	}
+} 
